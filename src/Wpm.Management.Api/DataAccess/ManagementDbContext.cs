@@ -40,7 +40,7 @@ namespace Wpm.Management.Api.DataAccess
         public int Age { get; set; }
 
         public int BreedId { get; set; }
-        public int Breed { get; set; }
+        public Breed Breed { get; set; }
     }
 
     public record Breed(int Id, string Name);
